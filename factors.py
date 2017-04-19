@@ -10,6 +10,7 @@ def factors(x):
             facs.add(int(x/r)) 
             t = int(x/r)  
         r += 1 
+    facs.sort()
     return facs    
     
     
